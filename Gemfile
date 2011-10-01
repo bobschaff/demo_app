@@ -17,6 +17,11 @@ group :assets do
   gem 'uglifier'
 end
 
+group :production do
+	# gem for Heroku
+	gem 'pg'
+end
+
 gem 'jquery-rails'
 
 # Use unicorn as the web server
